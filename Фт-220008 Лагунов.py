@@ -8,7 +8,7 @@ except:
     logging.error("An error has happened!")
     quit()
 v=list(range(1,n+1))
-for i in range(n):# Для перебора всех вариантов
+for i in range(n):# Для перебора всех бочонков
     c=randint(1,n-i)
     print('Выпал бочонок под номером ',v[c-1] )
     logging.info(f'Удаление {v[c-1]} бочонка')
